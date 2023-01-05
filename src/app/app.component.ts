@@ -21,10 +21,6 @@ import { ClientesService } from './clientes.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Rxjs';
-  counter: number = 0;
-  timer: Observable<number> = interval(1000);
-  time: number = 0;
   clientes: any = [];
 
   constructor(private clientesService: ClientesService) {}
